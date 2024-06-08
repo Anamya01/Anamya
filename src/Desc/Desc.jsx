@@ -3,8 +3,7 @@ import './Desc.css';
 import Image from '../Media/image.jpeg'
 const data = {
     name : 'Anamya vats',
-    discription : `I'm a  stupid developer based in India.
-     I code for fun, creating silly scripts and web apps, and diving into all things tech before 2092. Oh, and music? It's my true passion and brings me so much joy!`,
+    discription : `Hi I'm a stupid developer based in India. Creating web apps( dying trying ).  Cinephile at heart. `,
 }
 function Desc() {
   return (
