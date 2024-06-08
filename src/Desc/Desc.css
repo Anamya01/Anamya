@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Neue-B';
+    src: url('../Font/Neue/NeueHaasDisplayXThin.ttf');
+}
+@font-face {
+    font-family: 'Nyth-I';
+    src: url('../Font/Nyght/OTF/NyghtSerif-LightItalic.otf');
+}
+.Description{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+.description-para{
+    font-family: 'Neue-B';
+    width: 25%;
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+    top: 45%;
+    left: 50%;
+
+}
+.description-heading{
+    color: #f05e41;
+    font-size: 2rem;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    width: 25%;
+    text-align: left;
+    font-family: 'Nyth';
+}
+.image{
+    width: 20vw;
+    position: relative;
+    left: -15%;
+    top: -20%;
+}
+.shape{
+    width: 20vw;
+    height: 40vh;
+    position: relative;
+    left: 15%;
+    top: 5%;
+    background-color: #B683A1;
+}
+@media only screen and (max-width: 600px){
+    .description-para{
+        width: 90%;
+        top: 75%;
+        left: 5%;
+    }
+    .description-heading{
+        top: 75%;
+        left: 5%;
+        width: 90%;
+    }
+    .image{
+        width: 80vw;
+        left: 0%;
+        top: -30%;
+    }
+    .shape{
+        width: 70vw;
+        height: 30vh;
+        left: 15%;
+        top: -5%;
+    }
+}

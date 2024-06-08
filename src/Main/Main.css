@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Nyth';
+    src: url('../Font/Nyght/OTF/NyghtSerif-Regular.otf');
+}
+@font-face {
+    font-family: 'Neue';
+    src: url('../Font/Neue/NeueHaasDisplayXThin.ttf');
+}
+.gradient{
+    z-index: -100;
+    background: linear-gradient(180deg, #CA3E22, #D77882, #B683A1);
+	background-size: 100% 100%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    width: 100vw;
+}
+.name{
+    color: #AB2601;
+    font-family: 'Nyth';
+    font-size: 20rem;
+    position: absolute;
+    bottom: 27%;
+    margin: 0;
+    line-height: 0%;
+    margin-left: 50px;
+}
+.year{
+    color: #fff;
+    font-family: 'Neue';
+    font-size: 1.3rem;
+    position: absolute;
+    top: 5vh;
+    right: 5vh;
+}
+.info{
+    color: #fff;
+    font-family: 'Neue';
+    font-size: 1.3rem;
+    position: absolute;
+    top: 5vh;
+    left: 15vh;
+    width: 11vw;
+    text-align: left;
+}
+.links{
+    color: #fff;
+    font-family: 'Neue';
+    font-size: 1.3rem;
+    position: absolute;
+    top: 15vh;
+    right: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: right;
+}
+.links a{
+    color: white;
+}
+.links a:hover{
+    color: #ffdfd6;
+}
+@media only screen and (max-width: 600px){
+    .name{
+        font-size: 5rem;
+        margin-left: 30px;
+        bottom: 10%;
+    }
+    .info{
+        top: 5vh;
+        left: 5vh;
+        width: 45vw;
+    }
+}

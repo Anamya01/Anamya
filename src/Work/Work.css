@@ -1,0 +1,126 @@
+.project-page{
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects{
+    font-family: 'Nyth';
+    font-size: 2rem;
+    color: #ff7049;
+    letter-spacing: 1px;
+    width: 50%;
+}
+.work-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.works{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.all-info{
+    width: 55%;
+    height: 300px;
+}
+.title{
+    font-family: 'Nyth';
+    font-size: 1.3rem;
+}
+.about-project{
+    font-family: 'Neue';
+    font-weight: bold;
+}
+.project-image{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.livelink{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 10px;
+    vertical-align: baseline;
+    position: relative;
+    top: 74%;
+}
+.livelink a{
+    text-decoration: none;
+    font-family: 'Nyth';
+    color: #ff7049;
+}
+.gradient-top{
+    opacity: .7;
+    background-size: 400% 400%;
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    background: rgb(202,62,34);
+    background: linear-gradient(0deg, rgba(202,62,34,0) 0%, rgba(182,131,161,1) 100%);
+    pointer-events: none
+}
+.gradient-bottom{
+    opacity: .7;
+    background-size: 400% 400%;
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    bottom: 0;
+    background: rgb(202,62,34);
+    background: linear-gradient(180deg, rgba(202,62,34,0) 0%, rgba(182,131,161,1) 100%);
+    pointer-events: none;
+}
+.routes{
+    position: absolute;
+    top: 15vh;
+    right: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: 'Neue';
+    font-size: 1.3rem;
+    gap: 20px;
+}
+.routes a{
+    color: #ff7049;
+}
+.routes a:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px)  {
+    .routes{
+        top: 3vh;
+        right: 2.5vh;
+    }
+    .projects{
+        width: 90%;
+    }
+    .work-section{
+        width: 90%;
+    }
+    .works{
+        height: 50vh;
+        flex-direction: column;
+    }
+    .all-info{
+        height: 50vh;
+    }
+    .livelink{
+        top: 0;
+    }
+    .project-image{
+        width: 100%;
+        height: 170vh;
+    }
+}
