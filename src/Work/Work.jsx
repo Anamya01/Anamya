@@ -10,7 +10,7 @@ const work = [
      link : 'www.google.com',
      image : vistaio,
      github : 'https://github.com/Anamya01/Vistaio-',
-     live : 'https://vistaio--omega.vercel.app/',
+     live : '/',
     },
     {
         title : 'E-Mart',
