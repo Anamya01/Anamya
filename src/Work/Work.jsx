@@ -53,7 +53,7 @@ function Work() {
     })}</div>
     <div className='routes'>
         <Link to='/'>Home</Link>
-        <Link to='/blogs'>Blogs</Link>
+        <Link to='/blog'>Blogs</Link>
     </div>
     </div>
     <div className='gradient-bottom'></div>
