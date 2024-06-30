@@ -7,7 +7,7 @@ function Main() {
         <div className='info'>I'm a 4th year computer science student.</div>
         <div className='year'>2024-2025</div>
         <div className='links'>
-          <Link to='/blogs'>Blogs</Link>
+          <Link to='/blog'>Blogs</Link>
           <Link to='/projects'>Projects</Link>
         </div>
         <div className='name'>Anamya.</div>
